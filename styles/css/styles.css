@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 80rem; }
+
+header {
+  position: absolute; }
+
+.main-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: .5rem 4rem;
+  font-family: arial;
+  line-height: 1.6;
+  background-color: snow; }
+  .main-content h2 {
+    margin: 2.5rem 2rem 4rem 2rem; }
+  .main-content p {
+    margin: 1rem 0rem 2rem 0rem; }
+
+.article-full-img {
+  width: 100vw;
+  height: 60rem;
+  border: 4px solid pink;
+  background: url("../../resources/hello.png");
+  background-size: cover;
+  background-position: center; }
